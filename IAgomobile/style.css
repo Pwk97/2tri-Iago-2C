@@ -1,11 +1,16 @@
 :root {
-    --cor-de-fundo: black;
+    --cor-de-fundo: rgb(73, 67, 67);
+    --cor-de-cabecalh
 }
 
 body {
     background-color: var(--cor-de-fundo);
 }
 
+.cabecalho {
+    background-color: var(--cor-de-cabecalho);
+}
+
 h1 {
-   background-color: whitesmoke; 
+   background-color: whitesmoke
 }
