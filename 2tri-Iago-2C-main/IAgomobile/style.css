@@ -1,0 +1,31 @@
+:root {
+    --cor-de-fundo:  blue;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+}
+
+.cabecalho {
+    background-color: var(--cor-cabecalho);
+}
+
+.cabecaçho-titulo {
+    font-size: 36px;
+    font-weight: 700;
+    padding: 12px;
+    text-align: center;
+}
+.cabecalho-menu{
+    background-color: var(--fundo-menu);
+}
+
+.cabecalho-menu-item {
+    display: block;
+    padding: 10px;
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    border-top: 1px solid;
+}
