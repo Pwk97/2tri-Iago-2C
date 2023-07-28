@@ -1,5 +1,6 @@
 :root {
-    --cor-de-fundo:  blue;
+    --cor-de-fundo: rgb(73, 67, 67);
+    --cor-de-cabecalh
 }
 
 body {
@@ -7,25 +8,9 @@ body {
 }
 
 .cabecalho {
-    background-color: var(--cor-cabecalho);
+    background-color: var(--cor-de-cabecalho);
 }
 
-.cabecaçho-titulo {
-    font-size: 36px;
-    font-weight: 700;
-    padding: 12px;
-    text-align: center;
-}
-.cabecalho-menu{
-    background-color: var(--fundo-menu);
-}
-
-.cabecalho-menu-item {
-    display: block;
-    padding: 10px;
-    font-size: 24px;
-    text-decoration: none;
-    color: black;
-    text-align: center;
-    border-top: 1px solid;
+h1 {
+   background-color: whitesmoke
 }
